@@ -1,0 +1,126 @@
+body{
+    background:whitesmoke;
+	display: flex;
+	/*justify-content: center;
+	align-items: center;*/
+	height: 100vh;
+	flex-direction: column;
+}
+*{
+	font-family:  'Hahmlet', serif;
+	box-sizing:content-box;
+}
+
+
+.maindiv{
+	background-image: url('book.jpeg');
+	/*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+  
+  /* Full height */
+  height: 40%; 
+
+  /* Center and scale the image nicely */
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: rgba(255,255,255,0.6);
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+.div1{
+    position: relative;
+    margin: auto;
+    border: 5px solid rgb(218, 234, 241);
+    background-color: rgb(211, 238, 247);
+    width: 60%;
+    height: max-content;
+    align-items: left;
+    border-radius: 10px;
+}
+
+.div2{
+    position: absolute;
+    float: right;
+    border: 2px solid rgb(211, 224, 229);
+    background-color: rgb(218, 234, 241);
+    width: 65%;
+    height: max-content;
+    align-items: right;
+    display: flex;
+	justify-content: left;
+    top: 25px; 
+    right: 4px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h1{
+    padding-left: 40px;
+    color:white;
+    position: relative;
+    top: 3px;
+    left: 30px;
+    font-weight: 800;
+    font-size: 40px;
+}
+h2,h3{
+    padding-left: 40px;
+    color:white;
+    top: 18px;
+    left: 10px;
+    line-height:20px;
+}
+
+img{
+    position:relative;
+    height: 85px;
+    /*width: 20%;*/
+    left: 25px;
+    top: 25px;
+    border-radius: 2px;
+    float: left;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+button {
+    float:right;
+	background: #3e4a70;
+	padding: 15px 2px;
+	color: #fff;
+	border-radius: 5px;
+	margin-left: 1200px;
+	border: none;
+	font-size: large;
+}
+button:hover{
+	opacity: .7;
+}
+
+.cname{
+    padding-left: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    line-height:10px;
+}
+.fname{
+    padding-left: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height:20px;
+}
+hr{
+
+    width: 1px;
+    background-color: rgb(78, 76, 76);
+}
+
+
+/*float: none;
+	background: #3e4a70;
+	padding: 10px 1px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 12px;
+	border: none;
+    margin:0;*/

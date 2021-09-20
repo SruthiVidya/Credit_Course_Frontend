@@ -1,0 +1,193 @@
+body{
+	background:#334270;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	height: 100vh;
+	flex-direction: column;
+	background: -webkit-linear-gradient(left,#2a3a69,#334270,rgba(63, 76, 114,0.9), rgba(71, 80, 105,0.8) ,rgba(132, 151, 185,0.7));
+}
+
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+textarea
+{
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #666;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float:none;
+	background: #3e4a70;
+	padding: 15px 35px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 12px;
+	border: none;
+	font-size: large;
+}
+button:hover{
+	opacity: .7;
+}
+
+.but{
+	float:none;
+	background: #3e4a70;
+	padding: 15px 35px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 12px;
+	border: none;
+	font-size: large;
+	margin: 0;
+  position: absolute;
+
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.but:hover{
+	opacity: .7;
+}
+
+
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h2 {
+	text-align: center;
+	color:#262e47;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}
+
+select {
+	border: 2px solid #ccc;
+    color:#888;
+	padding: 7px;
+	margin: 10px auto;
+	border-radius: 5px;
+    vertical-align: middle;
+    line-height: 1.42857143;
+}
+
+#sel {
+	border: 2px solid #ccc;
+	padding: 7px;
+    color:#888;
+	margin: 10px auto;
+	border-radius: 5px;
+    position:sticky;
+}
+#pass{
+	font-size: x-small;
+	float: left;
+	background:#b6b9c4;
+	padding: 5px 5px;
+	color: #fff;
+	border-radius: 5px;
+	margin-left: 10px;
+	border: none;
+	color: #fff;
+}
+
+#box1{
+    position: absolute;
+    right: 50px;
+}
+
+#box2{
+    /*float: right;*/
+    position: absolute;
+    right: 50px;
+}
+
+#box3{
+    /*float: right;*/
+    position: absolute;
+    right: 50px;
+}
+
+#myFile{
+    color:#888;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: left;
+	font-size: 40px;
+    color: #fff;
+	padding-left: 15px;
+    font-family:  'Hahmlet', serif;
+}
+
+
+.pic{
+	background-image: url('blue.jpeg');
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.signup-link a:hover{
+	text-decoration: underline;
+}
+
+.signup-link{
+	text-align: center;
+	color:#888;
+}
